@@ -14,6 +14,13 @@
 		DDB474EC1FD9852300F8119F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB474EA1FD9852300F8119F /* LaunchScreen.storyboard */; };
 		DDB474F71FD9852400F8119F /* ZZJSearchControllerProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB474F61FD9852400F8119F /* ZZJSearchControllerProjectTests.swift */; };
 		DDB475021FD9852400F8119F /* ZZJSearchControllerProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB475011FD9852400F8119F /* ZZJSearchControllerProjectUITests.swift */; };
+		DDB475171FD985DC00F8119F /* ZZJSearchCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB475161FD985DC00F8119F /* ZZJSearchCommon.swift */; };
+		DDB475191FD9862700F8119F /* ZZJSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB475181FD9862700F8119F /* ZZJSearchView.swift */; };
+		DDB4751B1FD9866B00F8119F /* ZZJSearchBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB4751A1FD9866B00F8119F /* ZZJSearchBaseViewController.swift */; };
+		DDB4751D1FD9869300F8119F /* ZZJSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB4751C1FD9869300F8119F /* ZZJSearchViewController.swift */; };
+		DDB475211FD9949100F8119F /* ZZJSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB475201FD9949100F8119F /* ZZJSearchResultView.swift */; };
+		DDB4752C1FD995E200F8119F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB475281FD9959F00F8119F /* SnapKit.framework */; };
+		DDB4752E1FD9964700F8119F /* ZZJSearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB4752D1FD9964700F8119F /* ZZJSearchResultModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,20 @@
 			remoteGlobalIDString = DDB474DD1FD9852300F8119F;
 			remoteInfo = ZZJSearchControllerProject;
 		};
+		DDB475271FD9959F00F8119F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB475221FD9959F00F8119F /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		DDB475291FD9959F00F8119F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB475221FD9959F00F8119F /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = "SnapKit Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +68,15 @@
 		DDB474FD1FD9852400F8119F /* ZZJSearchControllerProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZJSearchControllerProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB475011FD9852400F8119F /* ZZJSearchControllerProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchControllerProjectUITests.swift; sourceTree = "<group>"; };
 		DDB475031FD9852400F8119F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB475161FD985DC00F8119F /* ZZJSearchCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchCommon.swift; sourceTree = "<group>"; };
+		DDB475181FD9862700F8119F /* ZZJSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchView.swift; sourceTree = "<group>"; };
+		DDB4751A1FD9866B00F8119F /* ZZJSearchBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchBaseViewController.swift; sourceTree = "<group>"; };
+		DDB4751C1FD9869300F8119F /* ZZJSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchViewController.swift; sourceTree = "<group>"; };
+		DDB4751E1FD98CE900F8119F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		DDB4751F1FD98CE900F8119F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DDB475201FD9949100F8119F /* ZZJSearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchResultView.swift; sourceTree = "<group>"; };
+		DDB475221FD9959F00F8119F /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
+		DDB4752D1FD9964700F8119F /* ZZJSearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchResultModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB4752C1FD995E200F8119F /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +108,12 @@
 		DDB474D51FD9852300F8119F = {
 			isa = PBXGroup;
 			children = (
+				DDB475221FD9959F00F8119F /* SnapKit.xcodeproj */,
 				DDB474E01FD9852300F8119F /* ZZJSearchControllerProject */,
 				DDB474F51FD9852400F8119F /* ZZJSearchControllerProjectTests */,
 				DDB475001FD9852400F8119F /* ZZJSearchControllerProjectUITests */,
 				DDB474DF1FD9852300F8119F /* Products */,
+				DDB4752B1FD995E200F8119F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +130,7 @@
 		DDB474E01FD9852300F8119F /* ZZJSearchControllerProject */ = {
 			isa = PBXGroup;
 			children = (
+				DDB4750F1FD985C300F8119F /* ZZJSearchController */,
 				DDB474E11FD9852300F8119F /* AppDelegate.swift */,
 				DDB474E31FD9852300F8119F /* ViewController.swift */,
 				DDB474E51FD9852300F8119F /* Main.storyboard */,
@@ -123,6 +157,83 @@
 				DDB475031FD9852400F8119F /* Info.plist */,
 			);
 			path = ZZJSearchControllerProjectUITests;
+			sourceTree = "<group>";
+		};
+		DDB4750F1FD985C300F8119F /* ZZJSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				DDB475141FD985C300F8119F /* Public */,
+				DDB475151FD985C300F8119F /* Resource */,
+				DDB475101FD985C300F8119F /* Classes */,
+			);
+			path = ZZJSearchController;
+			sourceTree = "<group>";
+		};
+		DDB475101FD985C300F8119F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDB475111FD985C300F8119F /* Controller */,
+				DDB475121FD985C300F8119F /* Model */,
+				DDB475131FD985C300F8119F /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDB475111FD985C300F8119F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4751A1FD9866B00F8119F /* ZZJSearchBaseViewController.swift */,
+				DDB4751C1FD9869300F8119F /* ZZJSearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDB475121FD985C300F8119F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4752D1FD9964700F8119F /* ZZJSearchResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDB475131FD985C300F8119F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDB475181FD9862700F8119F /* ZZJSearchView.swift */,
+				DDB475201FD9949100F8119F /* ZZJSearchResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDB475141FD985C300F8119F /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				DDB475161FD985DC00F8119F /* ZZJSearchCommon.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		DDB475151FD985C300F8119F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DDB475231FD9959F00F8119F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB475281FD9959F00F8119F /* SnapKit.framework */,
+				DDB4752A1FD9959F00F8119F /* SnapKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB4752B1FD995E200F8119F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +329,12 @@
 			mainGroup = DDB474D51FD9852300F8119F;
 			productRefGroup = DDB474DF1FD9852300F8119F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DDB475231FD9959F00F8119F /* Products */;
+					ProjectRef = DDB475221FD9959F00F8119F /* SnapKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DDB474DD1FD9852300F8119F /* ZZJSearchControllerProject */,
@@ -226,6 +343,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DDB475281FD9959F00F8119F /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = DDB475271FD9959F00F8119F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDB4752A1FD9959F00F8119F /* SnapKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SnapKit Tests.xctest";
+			remoteRef = DDB475291FD9959F00F8119F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DDB474DC1FD9852300F8119F /* Resources */ = {
@@ -260,7 +394,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB474E41FD9852300F8119F /* ViewController.swift in Sources */,
+				DDB4752E1FD9964700F8119F /* ZZJSearchResultModel.swift in Sources */,
+				DDB475191FD9862700F8119F /* ZZJSearchView.swift in Sources */,
+				DDB475211FD9949100F8119F /* ZZJSearchResultView.swift in Sources */,
 				DDB474E21FD9852300F8119F /* AppDelegate.swift in Sources */,
+				DDB4751B1FD9866B00F8119F /* ZZJSearchBaseViewController.swift in Sources */,
+				DDB475171FD985DC00F8119F /* ZZJSearchCommon.swift in Sources */,
+				DDB4751D1FD9869300F8119F /* ZZJSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +440,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DDB474E61FD9852300F8119F /* Base */,
+				DDB4751E1FD98CE900F8119F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +449,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DDB474EB1FD9852300F8119F /* Base */,
+				DDB4751F1FD98CE900F8119F /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

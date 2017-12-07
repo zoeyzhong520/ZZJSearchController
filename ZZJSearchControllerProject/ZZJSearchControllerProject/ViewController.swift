@@ -12,7 +12,24 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor.white
+        self.automaticallyAdjustsScrollViewInsets = false
+        
+        //btn
+        let rightBtn = UIBarButtonItem.init(barButtonSystemItem: .search, target: self, action: #selector(btnClick))
+        self.navigationItem.rightBarButtonItem = rightBtn
+        
+        //color view
+        let yelloView = UIView()
+        yelloView.frame = CGRect(x: (ZZJScreenWidth-200)/2, y: 100, width: 200, height: 100)
+        yelloView.backgroundColor = UIColor.yellow
+        view.addSubview(yelloView)
+        
+        let greenView = UIView()
+        greenView.frame = CGRect(x: (ZZJScreenWidth-200)/2, y: 300, width: 200, height: 100)
+        greenView.backgroundColor = UIColor.green
+        view.addSubview(greenView)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +38,25 @@ class ViewController: UIViewController {
     }
 
 
+    @objc fileprivate func btnClick() {
+        let searchView = ZZJSearchView(frame: CGRect.zero)
+        searchView.showInView(view: ZZJSearchKeyWindow)
+        searchView.showWithBlock { (searchText) in
+            print("searchText \(searchText)")
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
