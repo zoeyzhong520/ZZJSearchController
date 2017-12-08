@@ -10,5 +10,5 @@ import UIKit
 
 class ZZJSearchResultModel: NSObject {
 
-    var result:String?
+    var results:Array<String>?
 }

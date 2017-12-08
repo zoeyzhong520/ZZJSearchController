@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8645DB41FDA59200068BE7E /* ZZJSearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8645DB31FDA59200068BE7E /* ZZJSearchResultTableViewCell.swift */; };
+		D8645DB61FDA5B140068BE7E /* ZZJSearchUILabel+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8645DB51FDA5B140068BE7E /* ZZJSearchUILabel+Util.swift */; };
+		D8645DB81FDA65450068BE7E /* ZZJSearchResultDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8645DB71FDA65450068BE7E /* ZZJSearchResultDisplayViewController.swift */; };
+		D8645DBA1FDA76BE0068BE7E /* ZZJSearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8645DB91FDA76BE0068BE7E /* ZZJSearchHelper.swift */; };
 		DDB474E21FD9852300F8119F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB474E11FD9852300F8119F /* AppDelegate.swift */; };
 		DDB474E41FD9852300F8119F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB474E31FD9852300F8119F /* ViewController.swift */; };
 		DDB474E71FD9852300F8119F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB474E51FD9852300F8119F /* Main.storyboard */; };
@@ -55,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8645DB31FDA59200068BE7E /* ZZJSearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		D8645DB51FDA5B140068BE7E /* ZZJSearchUILabel+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZZJSearchUILabel+Util.swift"; sourceTree = "<group>"; };
+		D8645DB71FDA65450068BE7E /* ZZJSearchResultDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchResultDisplayViewController.swift; sourceTree = "<group>"; };
+		D8645DB91FDA76BE0068BE7E /* ZZJSearchHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJSearchHelper.swift; sourceTree = "<group>"; };
 		DDB474DE1FD9852300F8119F /* ZZJSearchControllerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZJSearchControllerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB474E11FD9852300F8119F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB474E31FD9852300F8119F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				DDB475141FD985C300F8119F /* Public */,
-				DDB475151FD985C300F8119F /* Resource */,
 				DDB475101FD985C300F8119F /* Classes */,
 			);
 			path = ZZJSearchController;
@@ -184,6 +191,7 @@
 			children = (
 				DDB4751A1FD9866B00F8119F /* ZZJSearchBaseViewController.swift */,
 				DDB4751C1FD9869300F8119F /* ZZJSearchViewController.swift */,
+				D8645DB71FDA65450068BE7E /* ZZJSearchResultDisplayViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 			children = (
 				DDB475181FD9862700F8119F /* ZZJSearchView.swift */,
 				DDB475201FD9949100F8119F /* ZZJSearchResultView.swift */,
+				D8645DB31FDA59200068BE7E /* ZZJSearchResultTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,15 +218,10 @@
 			isa = PBXGroup;
 			children = (
 				DDB475161FD985DC00F8119F /* ZZJSearchCommon.swift */,
+				D8645DB51FDA5B140068BE7E /* ZZJSearchUILabel+Util.swift */,
+				D8645DB91FDA76BE0068BE7E /* ZZJSearchHelper.swift */,
 			);
 			path = Public;
-			sourceTree = "<group>";
-		};
-		DDB475151FD985C300F8119F /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 		DDB475231FD9959F00F8119F /* Products */ = {
@@ -394,10 +398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB474E41FD9852300F8119F /* ViewController.swift in Sources */,
+				D8645DB81FDA65450068BE7E /* ZZJSearchResultDisplayViewController.swift in Sources */,
+				D8645DB41FDA59200068BE7E /* ZZJSearchResultTableViewCell.swift in Sources */,
 				DDB4752E1FD9964700F8119F /* ZZJSearchResultModel.swift in Sources */,
 				DDB475191FD9862700F8119F /* ZZJSearchView.swift in Sources */,
 				DDB475211FD9949100F8119F /* ZZJSearchResultView.swift in Sources */,
+				D8645DB61FDA5B140068BE7E /* ZZJSearchUILabel+Util.swift in Sources */,
 				DDB474E21FD9852300F8119F /* AppDelegate.swift in Sources */,
+				D8645DBA1FDA76BE0068BE7E /* ZZJSearchHelper.swift in Sources */,
 				DDB4751B1FD9866B00F8119F /* ZZJSearchBaseViewController.swift in Sources */,
 				DDB475171FD985DC00F8119F /* ZZJSearchCommon.swift in Sources */,
 				DDB4751D1FD9869300F8119F /* ZZJSearchViewController.swift in Sources */,

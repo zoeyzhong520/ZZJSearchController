@@ -49,7 +49,12 @@ let ZZJSearchRGBA: (CGFloat, CGFloat, CGFloat, CGFloat) -> UIColor = { red, gree
 let ZZJSearchKeyWindow = UIApplication.shared.keyWindow
 
 
+//MARK: - 定义谓词
 
+///定义谓词
+let ZZJSearchNSPredicate: (String) -> NSPredicate = { text in
+    return NSPredicate(format: "SELF CONTAINS[c]%@", text)
+}
 
 
 
